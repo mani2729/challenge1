@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url(BG\ 3.jpg);" >
+    <center><b> 
+    <div> 
+    <img src="icons.svg"><br><br>
+    <h2>LOGIN PAGE </h2>
+    <label for ="user id">Email ID </label><br>
+<input type="user id" id="user id" name="user id" placeholder="USER ID"  title="valid id" ><br><br>
+<label for="password">password</label><br>
+<input type="password" id="myInput" name="PASSWORD" 
+placeholder="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="user id password" required><br><br>
+<input type="button" name="log" id="log" value="LOGIN"><br><br>
+<input type="checkbox" onclick="myFunction()">Show Password
+<script>
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+<br><br>
+<a href="default.asp" target="_blank"> FORGET PASSWORD </a><br>
+</b>
+</div>
+</center>
+</body>
+</html>
+
+

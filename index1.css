@@ -1,0 +1,34 @@
+input[type="user id"]select{
+  width: 100%;
+  padding: 12px 20px;
+  margin : 8px 0;
+  display: inline-block;
+  border: 1px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=PASSWORD],select{
+  width: 50%;
+  padding: 12px 10px;
+  margin: 6% 0;
+  display: inline-block;
+  border: 2px;
+  border-radius: 2%;
+  box-sizing: border-box;
+}
+
+  input[checkbox],select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+div{
+background-color: lightcyan;
+  width: 300px;
+  padding: 50px;
+  margin: 20px;
+}
